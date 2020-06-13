@@ -8,11 +8,40 @@
     <artifactId>design-patterns</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
     <modules>
         <module>factory-method</module>
         <module>singleton</module>
         <module>simple-factory</module>
+        <module>builder</module>
     </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>1.8</java.version>
+        <org.reflections>0.9.12</org.reflections>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.reflections</groupId>
+                <artifactId>reflections</artifactId>
+                <version>${org.reflections}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 
 </project>
