@@ -8,7 +8,6 @@ package com.kevin.simplefactory;
 public class SimpleChartFactory {
 
     public static Chart getChart(String type) {
-        Chart chart = null;
         if ("HistogramChart".equalsIgnoreCase(type)) {
             return new HistogramChart();
         }

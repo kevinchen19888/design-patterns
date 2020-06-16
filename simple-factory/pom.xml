@@ -14,7 +14,7 @@
         <dependency>
             <groupId>org.reflections</groupId>
             <artifactId>reflections</artifactId>
-            <version>0.9.12</version>
+            <version>${org.reflections}</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
