@@ -9,14 +9,23 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>abstract-factory</artifactId>
+    <groupId>com.kevin</groupId>
+    <artifactId>prototype</artifactId>
+
     <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.8</version>
+            <scope>provided</scope>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>test</scope>
+            <version>4.13-beta-2</version>
+            <scope>compile</scope>
         </dependency>
+
     </dependencies>
 
 
