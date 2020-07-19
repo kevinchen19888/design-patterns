@@ -11,7 +11,7 @@ import java.time.LocalDate;
  * <a,浅拷贝:通过super.clone()实现,只能拷贝原型对象的值(基本)类型变量值,对于引用类型只能拷贝地址;
  * <b,深拷贝:通过序列化技术实现,对于值类型和引用类型都可以实现值得拷贝;
  *
- * @author : kevin
+ * @author  kevin
  */
 @Data
 public class WeeklyLog implements Cloneable,Serializable {

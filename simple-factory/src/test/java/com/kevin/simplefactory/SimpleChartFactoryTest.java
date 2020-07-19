@@ -10,7 +10,7 @@ import java.net.URL;
 import java.util.List;
 
 /**
- * @Author: kevin
+ * @author kevin
  */
 public class SimpleChartFactoryTest {
 

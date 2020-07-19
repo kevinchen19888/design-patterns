@@ -5,7 +5,7 @@ import com.kevin.abstractfactory.*;
 /**
  * Spring 皮肤工厂: 具体工厂
  *
- * @Author: kevin
+ * @author kevin
  */
 public class SpringSkinFactory implements SkinFactory {
     @Override

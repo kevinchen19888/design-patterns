@@ -7,7 +7,7 @@ import java.io.File;
 import java.util.List;
 
 /**
- * @Author: kevin
+ * @author kevin
  */
 public class AbstractFactoryTest {
 

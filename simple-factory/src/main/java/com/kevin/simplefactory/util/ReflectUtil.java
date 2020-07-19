@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * @Author: kevin
+ * @author kevin
  */
 public class ReflectUtil {
 

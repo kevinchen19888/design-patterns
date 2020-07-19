@@ -1,7 +1,7 @@
 package com.kevin.abstractfactory;
 
 /**
- * @Author: kevin
+ * @author kevin
  */
 public class SummerTextField implements TextField {
     @Override

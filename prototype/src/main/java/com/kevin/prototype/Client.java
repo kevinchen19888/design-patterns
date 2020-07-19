@@ -8,7 +8,7 @@ import java.time.LocalDate;
 /**
  * 客户端模拟
  *
- * @Author: kevin
+ * @author kevin
  */
 public class Client {
 

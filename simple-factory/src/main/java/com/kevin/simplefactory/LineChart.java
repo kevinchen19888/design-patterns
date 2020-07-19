@@ -1,7 +1,7 @@
 package com.kevin.simplefactory;
 
 /**
- * @Author: kevin
+ * @author kevin
  */
 public class LineChart  implements Chart{
     public LineChart() {

@@ -5,7 +5,7 @@ import lombok.Data;
 import java.io.Serializable;
 
 /**
- * @author: kevin
+ * @author kevin
  */
 @Data
 public class Attachment implements Serializable {

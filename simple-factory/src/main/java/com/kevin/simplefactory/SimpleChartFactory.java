@@ -3,7 +3,7 @@ package com.kevin.simplefactory;
 /**
  * 简单图表工厂类
  *
- * @Author: kevin
+ * @author kevin
  */
 public class SimpleChartFactory {
 
