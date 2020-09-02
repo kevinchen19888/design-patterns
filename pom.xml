@@ -27,6 +27,8 @@
         <module>builder</module>
         <module>abstract-factory</module>
         <module>prototype</module>
+        <module>adapter</module>
+        <module>bridge</module>
     </modules>
 
     <properties>
